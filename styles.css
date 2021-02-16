@@ -1,0 +1,65 @@
+html {
+    font-family: arial;
+    font-size: 14px;
+}
+#titles {
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+#ul-left {
+    position: absolute;
+    left: 0px;
+}
+#ul-right {
+    position: absolute;
+    right: 50px;
+}
+li {
+    display: inline;
+    padding: 1em;
+}
+#sign-in-button {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+#google-image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#im {
+    margin-top: 10%;
+}
+#search-bar {
+    text-align: center;
+}
+#leaf-image {
+    height: 14px;
+    width: 14px;
+}
+#footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background: #f2f2f2;
+}
+#footer-span {
+    display: inline-block;
+    margin: 1em;
+}

@@ -1,6 +1,6 @@
 html {
     font-family: arial;
-    font-size: 14px;
+    font-size: 1px;
     color: #5f6368;
 }
 #titles {
@@ -17,7 +17,7 @@ a:after {
 }
 ul {
     list-style-type: none;
-    display: inline-block;
+    
 }
 #ul-left {
     position: absolute;
@@ -30,7 +30,7 @@ ul {
     top: 0px;
 }
 li {
-    display: inline;
+
     padding: 1em;
 }
 #sign-in-button {
@@ -47,6 +47,10 @@ li {
 a:hover {
     text-decoration: underline;
 
+}
+#nine_dots {
+    height: 20px;
+    width: 20px;
 }
 #google-image {
     text-align: center;
@@ -65,13 +69,8 @@ a:hover {
 #footer {
     position: fixed;
     width: 100%;
-    text-align: center;
     bottom: 0;
     background: #f2f2f2;
-}
-#footer-span {
-    display: inline-block;
-    margin: 1em;
 }
 input {
     min-width: 45%;
@@ -97,4 +96,20 @@ button {
 }
 button:hover {
     box-shadow: 0 1px 2px gray;
+}
+
+#circle {
+    background: black;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+}
+.left-align {
+    float: left;
+}
+.right-align {
+    float: right;
+}
+.middle {
+    text-align: middle;
 }

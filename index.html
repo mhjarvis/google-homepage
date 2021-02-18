@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <div class="main-div">
@@ -18,20 +18,39 @@
         <ul id="nav-right">
           <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
           <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
-          <li><img src="nine_dots.png" id="nine-dots"></li>
+          <li><img src="images/nine_dots.png" id="nine-dots"></li>
           <li><button id="sign-in-button">Sign in</button></li>
         </ul>
       </div>
       <div id="google-image">
-        <img src="google-logo.png">
+        <img src="images/google-logo.png">
       </div>
-      <div id="search-div">
-        <form id="search-bar">
-          <input id="search-bar">
-        </form> 
+      <span id="search-bar">
+        <img src="images/mag.png" id="mag">
+        <input type="text" id="search-input"> 
+        <img src="images/mic.png" id="mic">
+      </span>
+      <div id="button-container">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
       </div>
     </div>
-
+    <div id="footer">
+      <div id="left-list">
+        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+      </div>
+      <div id="middle-list">
+        <img src="images/leaf.jpg" id="leaf">
+        <li><a href="#">Carbon neutral since 2007</a></li>
+      </div>
+      <div id="right-list">
+        <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+        <li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </div>
+    </div>
 
 
 
@@ -39,47 +58,3 @@
 
 
   </body>
-
-    <!--
-
-    <nav class="navbar">
-      <ul class="leftnav">
-        <li>
-          
-        </li>
-        <li>
-          
-        </li>
-      </ul>
-      <ul class="rightnav">
-
-
-    <div>
-      <form>
-        <input>
-      </form>
-    </div>
-
-    <div>
-      <Button type="submit">Google Search</Button>
-      <Button type="submit">I'm Feeling Lucky</Button>
-    </div>
-    <div>
-      <div>
-        <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search works</li>
-        </ul>
-        <ul>
-          <img> Carbon neutral since 2007
-        </ul>
-        <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
-        </ul>
-      </div>
-    </div>
-  </body>
-</html>
